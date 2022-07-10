@@ -1,0 +1,81 @@
+<!--Сообщаем браузеру как стоит обрабатывать эту страницу -->
+	<!DOCTYPE html>
+<!--Оболочка документа, указываеи язык содержимого-->
+<html lang="ru">
+	<!--Заголовок страницы, контейнер для других важных данных (не отображается)-->
+	<head>
+		<!--Заголовок страницы в браузере-->
+			<title>An introduction to html tags. Part 3 (Forms)</title>
+			<!--Кодировка страницы-->
+			<meta http-equiv="content-typr" content="text/html;charset=UFT-8"/>
+	</head>
+	<!--Отоброжаемое тело страницы-->
+	<body>
+	<form action="#" method="get">
+		<div>
+			<p>Фамилия</p>
+			<input tabindex="1" placeholder="Фамилия" type="text" name="surname">
+		</div>
+		<div>
+			<p>Имя</p>
+			<input tabindex="2" placeholder="Имя" type="text" name="Name">
+		</div>
+		<div>
+			<p>Отчество</p>
+			<input tabindex="3" placeholder="Отчество" type="text" name="Middle name">
+		</div>
+		<div>
+			<p>Телефон</p>
+			<input tabindex="4" placeholder="Телефон" type="tel" name="phone">
+		</div>
+		<div>
+			<p>Пароль</p>
+			<input tabindex="5" placeholder="Пароль" type="password" name="password">
+		</div>
+		<div>
+			<p>Пол</p>
+			<div>
+				<input tabindex="6" type="radio" checked name="gender" value="male"> Мужской
+			</div>
+			<div>
+				<input tabindex="6" type="radio" name="gender" value="female"> Женский
+			</div>
+		</div>
+		<div>
+			<p>Имущество</p>
+			<div>
+				<input tabindex="7" type="checkbox" name="car" value="yes"> Машина
+			</div>
+			<div>
+				<input tabindex="8" type="checkbox" name="bike" value="yes"> Велосипед
+			</div>
+			<div>
+				<input tabindex="9" checked type="checkbox" name="t-shirt" value="yes"> Футболка
+			</div>
+		</div>
+		<div>
+			<p>Прикрепить фото</p>
+			<input tabindex="10" type="file" name="photo">
+		</div>
+		<div>
+			<p>Дополнительная информация</p>
+			<textarea tabindex="11" name="info"></textarea>
+		</div>
+		<div>
+			<p>Любимое время года</p>
+			<select tabindex="12" name="season">
+				<option value="Autumn">Осень</option>
+				<option value="Summer">Лето</option>
+				<option selected value="Winter">Зима</option>
+				<option value="Spring">Весна</option>
+			</select>
+		</div>
+		<div>
+			<p>Действия</p>
+			<button tabindex="13" type="submit">Отправить</button>
+			<button tabindex="14" type="reset">Очистить</button>
+		</div>
+	</form>
+	</body>
+</html> 
+ 
