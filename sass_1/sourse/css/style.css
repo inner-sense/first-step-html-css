@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  widows: 100%;
+  font-size: 1;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*-----------------------------------*/
+.indentation_pattern, .list {
+  margin: 0 0 50px;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #e8e8e8;
+}
+
+.content {
+  padding: 80px 50px;
+}
+
+.list {
+  color: #273d46;
+  font-size: 20px;
+  line-height: 36px;
+}
+.list li:nth-child(1) {
+  text-decoration: line-through;
+}
+.list li:nth-child(1):hover {
+  text-decoration: none;
+}
+.list li:nth-child(2) {
+  font-weight: 700;
+}
+.list li:nth-child(2):hover {
+  font-weight: 400;
+  color: #d55a5a;
+}
+.list li:nth-child(2):hover:before {
+  content: url("../../img/check_icon_95.png");
+  padding: 0 8px 0 0;
+}
+.list li:nth-child(3) {
+  font-style: italic;
+}
+.list li:nth-child(3):hover {
+  font-style: normal;
+}
+.list li:nth-child(4) {
+  text-transform: uppercase;
+}
+.list li:nth-child(4):hover {
+  text-transform: none;
+}
+.list li:before {
+  content: url("../../img/check_icon_96.png");
+  padding: 0 8px 0 0;
+}
+
+.first_text {
+  color: #273d46;
+  font-size: 25px;
+  margin: 0 0 90px;
+}
+.first_text span {
+  color: green;
+}
+.first_text:first-line {
+  color: #d55a5a;
+}
+
+.second_text {
+  width: 31.25%;
+  text-align: justify;
+  color: #273d46;
+  font-size: 18px;
+  margin: 0 auto;
+}
+.second_text:first-letter {
+  color: #d55a5a;
+  font-size: 24px;
+}
