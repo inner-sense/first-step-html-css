@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face {
+	font-family: 'PFDinTextCondPro';
+	src: url('../../fonts/ofont.ru_PF Din Text Cond Pro.eot');
+	src: local('☺'), url('../../fonts/ofont.ru_PF Din Text Cond Pro.woff') format('woff'), url('../../fonts/ofont.ru_PF Din Text Cond Pro.ttf') format('truetype'), url('../../fonts/ofont.ru_PF Din Text Cond Pro.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+// Файл ообнуляющих стилей
+@import "nullstyle.scss";
+
+
+.text{
+	font-size: 30px;
+	line-height: 35px;
+	margin: 0px 0px 30px 0px;
+}
+.text_google { 
+	font-family: "PT Sans";
+	font-size: 30px;
+	line-height: 35px;
+	margin: 0px 0px 30px 0px;
+	color: red;
+}
+.text_download{
+	color: blue;
+	font-family: 'PFDinTextCondPro';
+	font-size: 30px;
+	line-height: 35px;
+	margin: 0px 0px 30px 0px;
+}
