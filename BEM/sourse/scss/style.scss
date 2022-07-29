@@ -1,0 +1,85 @@
+// Файл ообнуляющих стилей
+@import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body{
+	font-family: Lato;
+}
+
+.about {
+	&__body {
+		max-width: 823px;
+		margin: 0px auto;
+	}
+	&__header {
+		margin: 0 0 65px 0;
+	}
+	&__title {
+		margin: 0 0 30px 0;
+	}
+	&__text {
+		max-width: 688px;
+		font-size: 14px;
+		line-height: 25px;
+		font-weight: 300;
+		color: #868585;
+		text-align: center;
+		margin: 0 auto;
+	}
+	&__row {
+		display: flex;
+		margin: 0px -15px;
+	}
+	&__column {
+		padding: 0px 15px;
+		flex: 0 0 33.333%;
+	}
+}
+.title {
+	font-size: 34px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.16em;
+	position: relative;
+	text-align: center;
+	padding: 0 0 35px 0;
+	&:after{
+		content:'';
+		position: absolute;
+		bottom: 0;
+		width: 81px;
+		height: 1px;
+		left: 50%;
+		background-color: #000000;
+		margin: 0 0 0 -40px;
+	}
+}
+.item-about {
+	&__icon {
+		margin: 0px auto 40px auto;
+		border-radius: 50%;
+		width: 92px;
+		height: 92px;
+		border: 2px solid #f1f1f1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+	&__title {
+		font-size: 22px;
+		line-height: 1.2;
+		font-weight: 400;
+		letter-spacing: 0.16em;
+		color: #000000;
+		margin: 0 0 35px 0;
+		text-align: center;
+	}
+	&__text {
+		font-size: 14px;
+		line-height: 26px;
+		font-weight: 300;
+		color: #868585;
+		text-align: center;
+	}
+}
